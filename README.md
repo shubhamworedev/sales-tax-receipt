@@ -27,47 +27,8 @@ A simple Java console application to calculate receipts for shopping baskets. It
 
 ---
 
-## Menu Options
+## How to use
 
-You will be presented with the following menu:
-
-1. Add Item to Basket  
-2. View Receipt  
-3. Clear Basket  
-4. Exit  
-
-Type a number to select the option.
-
----
-
-## Add Item (Option 1)
-
-The app will prompt you to enter the following:
-
-- Name: required, non-empty string  
-- Price: required, a decimal number greater than 0  
-- Quantity: required, an integer greater than 0  
-- Imported: required, enter "yes" or "no"  
-- Category: required, must be one of: BOOK, FOOD, MEDICAL, OTHER (case-insensitive)
-
----
-
-
-## View Receipt (Option 2)
-
-
-Show reciept.
-
----
-
-## Clear Basket (Option 3)
-
-Removes all items from the basket.
-
----
-
-## Exit (Option 4)
-
-Closes the application.
+Add 1 Item at a time,then you will be asked for choice to add more or show receipt and exit.
 
 ---
